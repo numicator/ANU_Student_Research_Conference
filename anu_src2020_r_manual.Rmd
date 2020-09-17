@@ -5,6 +5,7 @@ date: "17 September 2020"
 output:
   html_document:
     toc: yes
+    toc_float: no
     toc_depth: 4
 keep_tex: no
 ---
@@ -115,7 +116,7 @@ This document was created in R Markdown (http://rmarkdown.rstudio.com, http://rm
     * Installing a package
 
 
-# Our Example Project: Eccology of Golden Orb-Weaver Spiders
+# Example Project
 
 We will get a taste of how to analyze data in R by working with data from (a fictional) project on Golden Orb-Weaver spiders. The research objective of this project is to compare spider populations living in different climate zones in Australia. We will compare body weight of a spider to the diameter of the web the spider weaves and asses if it is true that:
 
@@ -795,7 +796,7 @@ animals[animals$weight >= 4, ]
 
 <br>
 
-# Golden Orb-Weaver Spider Project
+# Spider Project
 
 Finally, we can start working on the data from our project!
 
